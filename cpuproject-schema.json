@@ -12,6 +12,16 @@
         },
         "partnumber": {
             "type": "string"
+        },
+        "sdk_server": {
+            "type": "string",
+            "format": "uri"
+        },
+        "sdk_dir": {
+            "type": "string"
+        },
+        "sdk_name": {
+            "type": "string"
         }
     },
     "required": [
