@@ -1,0 +1,22 @@
+{
+    "type": "object",
+    "properties": {
+        "type": {
+            "type": "string"
+        },
+        "manufacture": {
+            "type": "string"
+        },
+        "series": {
+            "type": "string"
+        },
+        "partnumber": {
+            "type": "string"
+        }
+    },
+    "required": [
+        "type",
+        "manufacture",
+        "series"
+    ]
+}
